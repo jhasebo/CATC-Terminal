@@ -1,0 +1,120 @@
+C:\Users\Kevin-PC\Desktop\kevin\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Login.baml
+C:\Users\Kevin-PC\Desktop\kevin\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.baml
+C:\Users\Kevin-PC\Desktop\kevin\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.baml
+C:\Users\Kevin-PC\Desktop\kevin\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Login.g.vb
+C:\Users\Kevin-PC\Desktop\kevin\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.g.vb
+C:\Users\Kevin-PC\Desktop\kevin\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.g.vb
+C:\Users\Kevin-PC\Desktop\kevin\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal_MarkupCompile.cache
+C:\Users\Kevin-PC\Desktop\kevin\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.g.resources
+C:\Users\Kevin-PC\Desktop\kevin\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.Resources.resources
+C:\Users\Kevin-PC\Desktop\kevin\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.vbproj.GenerateResource.Cache
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.baml
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.baml
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.g.vb
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.g.vb
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal_MarkupCompile.cache
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.g.resources
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.Resources.resources
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.exe
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.pdb
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.xml
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\bin\Debug\MahApps.Metro.dll
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\bin\Debug\MahApps.Metro.xml
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.exe
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.xml
+C:\Users\VERNE\Desktop\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.pdb
+C:\Users\Kevin-PC\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.exe
+C:\Users\Kevin-PC\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.xml
+C:\Users\Kevin-PC\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.pdb
+C:\Users\Kevin-PC\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.vbprojResolveAssemblyReference.cache
+C:\Users\Kevin-PC\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.baml
+C:\Users\Kevin-PC\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.baml
+C:\Users\Kevin-PC\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.g.vb
+C:\Users\Kevin-PC\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.g.vb
+C:\Users\Kevin-PC\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal_MarkupCompile.cache
+C:\Users\Kevin-PC\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.g.resources
+C:\Users\Kevin-PC\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.Resources.resources
+C:\Users\Kevin-PC\Dropbox\Software Enginerring\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.vbproj.GenerateResource.Cache
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.exe
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.xml
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.pdb
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.exe
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.pdb
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.xml
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\bin\Debug\MahApps.Metro.dll
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\bin\Debug\System.Windows.Interactivity.dll
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\bin\Debug\MahApps.Metro.xml
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.vbprojResolveAssemblyReference.cache
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.baml
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.baml
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.g.vb
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.g.vb
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal_MarkupCompile.cache
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.g.resources
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.Resources.resources
+C:\Dropbox\Software Engineering\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.vbproj.GenerateResource.Cache
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.exe
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.xml
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.pdb
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.baml
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.baml
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.g.vb
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.g.vb
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal_MarkupCompile.cache
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.g.resources
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.Resources.resources
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.exe
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.pdb
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.xml
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\MahApps.Metro.dll
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\MahApps.Metro.xml
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Login.baml
+C:\Users\VERNE\Desktop\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Login.g.vb
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.exe
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.xml
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.pdb
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.exe
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.pdb
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.xml
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\MahApps.Metro.dll
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\System.Windows.Interactivity.dll
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\MahApps.Metro.xml
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.vbprojResolveAssemblyReference.cache
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Login.baml
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.baml
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.baml
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Login.g.vb
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.g.vb
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.g.vb
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal_MarkupCompile.cache
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.g.resources
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.Resources.resources
+C:\Dropbox\Software Engineering\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.vbproj.GenerateResource.Cache
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.exe
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.xml
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.pdb
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.exe
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.pdb
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\CATC_Terminal.xml
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\MahApps.Metro.dll
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\bin\Debug\MahApps.Metro.xml
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.vbprojResolveAssemblyReference.cache
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Login.baml
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.baml
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.baml
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Login.g.vb
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\MainWindow.g.vb
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\Application.g.vb
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal_MarkupCompile.cache
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.g.resources
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.Resources.resources
+C:\Users\Theodore\Dropbox\Software Enginerring\KEVIN NANDITO UNG SYSTEMS\CATC\CATC_Terminal\CATC_Terminal\obj\x86\Debug\CATC_Terminal.vbproj.GenerateResource.Cache

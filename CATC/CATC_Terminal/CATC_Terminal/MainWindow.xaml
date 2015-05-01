@@ -1,0 +1,444 @@
+﻿<Controls:MetroWindow x:Class="MainWindow"
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    ResizeMode="NoResize"
+    ShowMinButton="False"
+    ShowMaxRestoreButton="false"
+    Title="CATC Terminal" Height="577" Width="946" Name="Main" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignWidth="880" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" Icon="/CATC_Terminal;component/Images/Google%20Desktop.png">
+    <Controls:MetroWindow.WindowCommands>
+        <Controls:WindowCommands>
+            <Button Name="btnSettings" Content="settings" />
+            <!--TextBox Height="23" HorizontalAlignment="Right" Margin="10,2,0,0" Name="Search" VerticalAlignment="Top" Width="181" Controls:TextboxHelper.ClearTextButton="True" Controls:TextboxHelper.Watermark="Search" /-->
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.WindowCommands>
+    <Controls:MetroContentControl>
+        <Grid>
+            <Grid Name="gridMenu" Background="#0F000000" Margin="0,0,705,0">
+                <StackPanel Height="150" HorizontalAlignment="Left" Margin="20,55,0,0" Name="StackPanel1" VerticalAlignment="Top" Width="200" >
+                    <Button Height="41" Name="btnUser" Width="157" BorderBrush="{x:Null}" Background="{x:Null}">
+                        <DockPanel OverridesDefaultStyle="True" Height="32" Width="150">
+                            <Image Height="25" Width="27" Source="/CATC_Terminal;component/Images/User%20Accounts%20alt.png" />
+                            <TextBlock Text="Profile" TextAlignment="Left" Width="80" Padding="10,7,0,0" FontSize="12" FontWeight="SemiBold" />
+                        </DockPanel>
+                        <Button.Triggers>
+                            <EventTrigger RoutedEvent="Button.Click">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation 
+                                        Storyboard.TargetName="gridReferrals"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                        From="0" To="0" Duration="0:0:0"
+                                        />
+                                        <DoubleAnimation 
+                                        Storyboard.TargetName="gridReports"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                        From="0" To="0" Duration="0:0:0"
+                                        />
+                                        <DoubleAnimation 
+                                        Storyboard.TargetName="gridReferralDetails"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                        From="0" To="0" Duration="0:0:0"
+                                        />
+                                        <DoubleAnimation 
+                                        Storyboard.TargetName="gridReportDetails"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                        From="0" To="0" Duration="0:0:0"
+                                        />
+
+                                        <DoubleAnimation BeginTime="0:0:0.2"
+                                        Storyboard.TargetName="gridContentHolder"
+                                        Storyboard.TargetProperty="(Grid.Opacity)"
+                                        From="0" To="1" Duration="0:0:0.25"
+                                        />
+                                        <DoubleAnimation BeginTime="0:0:0.2"
+                                        Storyboard.TargetName="gridMenu"
+                                        Storyboard.TargetProperty="(Grid.Opacity)"
+                                        From="1" To="0.60" Duration="0:0:0.25"
+                                        />
+                                        <DoubleAnimation BeginTime="0:0:0.2"
+                                        Storyboard.TargetName="gridContentHolder"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                            From="0" To="800" Duration="0:0:0.25"
+                                        />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Button.Triggers>
+                       </Button>
+                    <Button Height="41" Name="btnReferral" Width="157" BorderBrush="{x:Null}" Background="{x:Null}">
+                        <DockPanel OverridesDefaultStyle="True" Height="32" Width="150">
+                                   
+                            <Image Height="25" Width="27" Source="/CATC_Terminal;component/Images/Recent%20Items.png" />
+                            <TextBlock Text="Referrals" TextAlignment="Left" Width="80" Padding="30,7,0,0" FontSize="12" FontWeight="SemiBold" />
+                            <Canvas Name="cNotify" Visibility="Hidden">
+                                <TextBlock HorizontalAlignment="center" TextAlignment="center"  VerticalAlignment="Center" Name="tbDisplayNotifCtr" Text="0" Canvas.Top="3" Canvas.Left="3" Foreground="white" Background="#FFAF0000" Height="15" Width="16" />
+                            </Canvas>
+                        </DockPanel>
+                        <Button.Triggers>
+                            <EventTrigger RoutedEvent="Button.Click">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation 
+                                        Storyboard.TargetName="gridReferralDetails"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                        From="0" To="0" Duration="0:0:0"
+                                        />
+                                        <DoubleAnimation 
+                                        Storyboard.TargetName="gridReportDetails"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                        From="0" To="0" Duration="0:0:0"
+                                        />
+                                        <DoubleAnimation 
+                                        Storyboard.TargetName="gridContentHolder"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                        From="0" To="0" Duration="0:0:0"
+                                        />
+                                        <DoubleAnimation 
+                                        Storyboard.TargetName="gridReports"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                        From="0" To="0" Duration="0:0:0"
+                                        />
+
+                                        <DoubleAnimation BeginTime="0:0:0.2"
+                                        Storyboard.TargetName="gridReferrals"
+                                        Storyboard.TargetProperty="(Grid.Opacity)"
+                                        From="0" To="1" Duration="0:0:0.25"
+                                        />
+                                        <DoubleAnimation BeginTime="0:0:0.2"
+                                        Storyboard.TargetName="gridMenu"
+                                        Storyboard.TargetProperty="(Grid.Opacity)"
+                                        From="1" To="0.60" Duration="0:0:0.25"
+                                        />
+                                        <DoubleAnimation BeginTime="0:0:0.2"
+                                        Storyboard.TargetName="gridReferrals"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                            From="0" To="800" Duration="0:0:0.25"
+                                        />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Button.Triggers>
+                    </Button>
+                    <Button Height="41" Name="btnReports" Width="157" BorderBrush="{x:Null}" Background="{x:Null}">
+                        <DockPanel OverridesDefaultStyle="True" Height="32" Width="150">
+                            <Image Height="25" Width="27" Source="/CATC_Terminal;component/Images/Chart%20-%20Google%20Docs.png" />
+                            <TextBlock Text="Report" TextAlignment="Left" Width="80" Padding="10,7,0,0" FontSize="12" FontWeight="SemiBold" />
+                        </DockPanel>
+                        <Button.Triggers>
+                            <EventTrigger RoutedEvent="Button.Click">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation 
+                                        Storyboard.TargetName="gridReferralDetails"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                        From="0" To="0" Duration="0:0:0"
+                                        />
+                                        <DoubleAnimation 
+                                        Storyboard.TargetName="gridReportDetails"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                        From="0" To="0" Duration="0:0:0"
+                                        />
+                                        <DoubleAnimation 
+                                        Storyboard.TargetName="gridContentHolder"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                        From="0" To="0" Duration="0:0:0"
+                                        />
+                                        <DoubleAnimation 
+                                        Storyboard.TargetName="gridReferrals"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                        From="0" To="0" Duration="0:0:0"
+                                        />
+
+
+                                        <DoubleAnimation BeginTime="0:0:0.2"
+                                        Storyboard.TargetName="gridReports"
+                                        Storyboard.TargetProperty="(Grid.Opacity)"
+                                        From="0" To="1" Duration="0:0:0.25"
+                                        />
+                                        <DoubleAnimation BeginTime="0:0:0.2"
+                                        Storyboard.TargetName="gridMenu"
+                                        Storyboard.TargetProperty="(Grid.Opacity)"
+                                        From="1" To="0.60" Duration="0:0:0.25"
+                                        />
+                                        <DoubleAnimation BeginTime="0:0:0.2"
+                                        Storyboard.TargetName="gridReports"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                            From="0" To="800" Duration="0:0:0.25"
+                                        />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Button.Triggers>
+                    </Button>
+                </StackPanel>
+                
+            </Grid>
+            <Grid Name="gridContentHolder" Background="Gray" Margin="219,0,0,0" HorizontalAlignment="Left" Width="0">
+                <Button Width="55" Height="55" Style="{DynamicResource MetroCircleButtonStyle}" HorizontalAlignment="Left" Margin="25,16,0,0" VerticalAlignment="Top">
+                    <Image Height="50" Width="53" Source="/CATC_Terminal;component/Images/MB_0006_back.ico" />
+                    <Button.Triggers>
+                        <EventTrigger RoutedEvent="Button.Click">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation
+                                        Storyboard.TargetName="gridMenu"
+                                        Storyboard.TargetProperty="(Grid.Opacity)"
+                                        From="0.6" To="1" Duration="0:0:0.25"
+                                        />
+                                    <DoubleAnimation
+                                        Storyboard.TargetName="gridContentHolder"
+                                        Storyboard.TargetProperty="(Grid.Opacity)"
+                                        From="1" To="0" Duration="0:0:0.10"
+                                        />
+                                    <DoubleAnimation
+                                        Storyboard.TargetName="gridContentHolder"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                            From="800" To="0" Duration="0:0:0.10"
+                                        />
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </Button.Triggers>
+                </Button>
+                <TextBlock Text="Profile" TextDecorations="Underline" Height="32" Margin="97,34,0,0" Name="Label1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="133" Foreground="#61F8F8F8" FontSize="15" FontWeight="SemiBold" />
+                <GroupBox Header="Photo"  Height="275" HorizontalAlignment="Left" Margin="52,90,0,0" Name="GroupBox2" VerticalAlignment="Top" Width="268">
+                    <Grid>
+                        <Button HorizontalAlignment="Left"  Name="btnPicture" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}">
+                            <DockPanel>
+                                <Image Name="imgProfile"  SnapsToDevicePixels="False" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="Uniformtofill" Source="/CATC_Terminal;component/Images/User%20Accounts%20alt.png" />
+                            </DockPanel>
+                        </Button>
+                    </Grid>
+                </GroupBox>
+                <GroupBox Header="Contact Information" Height="129" HorizontalAlignment="Left" Margin="51,376,0,0" Name="GroupBox4" VerticalAlignment="Top" Width="651">
+                    <Grid Height="95">
+                        <StackPanel Height="43" HorizontalAlignment="Left" Margin="28,6,0,0" Name="StackPanel2" VerticalAlignment="Top" Width="Auto" Orientation="Horizontal">
+                            <Label Content="Contact Number  :            " FontSize="13" FontWeight="SemiBold" Foreground="#FFF8F8F8" Height="28" Name="Label5" />
+                            <Label Foreground="White" Height="28" Name="lblContact" Width="Auto" MinWidth="40" />
+                            <TextBox Height="23" Name="tbUpdateContact" Width="0" Margin="10,0" />
+                            <Button Content="Update" Height="23" Name="btnUpdateContact" Width="62" />
+                            <Button Content="Set" Height="23" Name="setContact" Width="0" />
+                            <Button Content="Cancel" Height="23" Name="CancelC" Width="0" Margin="5,0,0,0" />
+                        </StackPanel>
+                        <StackPanel Height="43" HorizontalAlignment="Left" Margin="30,40,0,0" Name="StackPanel3" Orientation="Horizontal" VerticalAlignment="Top" Width="Auto">
+                            <Label Content="E-mail Address  :              " FontSize="13" FontWeight="SemiBold" Foreground="#FFF8F8F8" Height="28" Name="Label7" />
+                            <Label Foreground="White" Height="28" Name="lblEmail" Width="Auto" MinWidth="40" />
+                            <TextBox Height="23" Name="tbUpdateEmail" Width="0
+                             " Margin="10,0" IsUndoEnabled="False" />
+                            <Button Content="Update" Height="23" Name="btnUpdateEmail" Width="62" />
+                            <Button Content="Set" Height="23" Name="setEmail" Width="0" />
+                            <Button Content="Cancel" Height="23" Name="CancelE" Width="0" Margin="5,0,0,0" />
+                        </StackPanel>
+                    </Grid>
+                </GroupBox>
+                <GroupBox Header="Employee Number" Height="93" HorizontalAlignment="Left" Margin="338,93,0,0" Name="GroupBox5" VerticalAlignment="Top" Width="140">
+                    <Grid Background="#06FFFFFF">
+                        <Label Content="Label" Height="28" HorizontalAlignment="Left" Margin="12,13,0,0" Name="lblEmpNum" VerticalAlignment="Top" Foreground="White" FontSize="16" FontWeight="Medium" />
+                    </Grid>
+                </GroupBox>
+                <GroupBox Header="Employee Name" Height="78" Margin="336,199,0,0" Name="GroupBox6" VerticalAlignment="Top" HorizontalAlignment="Left" Width="366">
+                    <Grid Background="#06FFFFFF">
+
+                        <Label Content="Label" Width="320" Foreground="White" Height="28" HorizontalAlignment="Center" Margin="17,5,17,0" Name="lblName" VerticalAlignment="Top" FontSize="13" />
+                    </Grid>
+                </GroupBox>
+                <GroupBox Header="Designation" Height="89" HorizontalAlignment="Left" Margin="491,95,0,0" Name="GroupBox3" VerticalAlignment="Top" Width="206">
+                    <Grid Background="#06FFFFFF">
+                        <Label Content="Label" FontSize="16" FontWeight="Medium" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="10,10,0,0" Name="lblDesignation" VerticalAlignment="Top" />
+                    </Grid>
+                </GroupBox>
+                <GroupBox Header="Affiliation" Height="79" HorizontalAlignment="Left" Margin="335,284,0,0" Name="GroupBox7" VerticalAlignment="Top" Width="369">
+                    <Grid>
+                        <Label Content="Label" FontSize="13" Foreground="White" Height="28" HorizontalAlignment="Center" Margin="15,7,12,0" Name="lblaffiliation" VerticalAlignment="Top" Width="322" />
+                    </Grid>
+                </GroupBox>
+            </Grid>
+
+
+            <Grid Name="gridReferrals" Background="Gray" Margin="219,0,0,0" HorizontalAlignment="Left" Width="0">
+                <Button Width="55" Height="55" Style="{DynamicResource MetroCircleButtonStyle}" HorizontalAlignment="Left" Margin="25,16,0,0" VerticalAlignment="Top">
+                    <Image Height="50" Width="53" Source="/CATC_Terminal;component/Images/MB_0006_back.ico" />
+                    <Button.Triggers>
+                        <EventTrigger RoutedEvent="Button.Click">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation
+                                        Storyboard.TargetName="gridMenu"
+                                        Storyboard.TargetProperty="(Grid.Opacity)"
+                                        From="0.6" To="1" Duration="0:0:0.25"
+                                        />
+                                    <DoubleAnimation
+                                        Storyboard.TargetName="gridReferrals"
+                                        Storyboard.TargetProperty="(Grid.Opacity)"
+                                        From="1" To="0" Duration="0:0:0.10"
+                                        />
+                                    <DoubleAnimation
+                                        Storyboard.TargetName="gridReferrals"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                            From="800" To="0" Duration="0:0:0.10"
+                                        />
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </Button.Triggers>
+                </Button>
+                <TextBlock Text="Referrals" TextDecorations="Underline" Height="32" Margin="97,34,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="133" Foreground="#61F8F8F8" FontSize="15" FontWeight="SemiBold" />
+                <DataGrid Height="385" HorizontalAlignment="Left" Margin="49,98,0,0" Name="dgReferrals" VerticalAlignment="Top" Width="631" Visibility="hidden" CanUserAddRows="false" SelectionMode="Single" CanUserDeleteRows="false" CanUserReorderColumns="false" CanUserResizeColumns="false" CanUserResizeRows="false" IsManipulationEnabled="False" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="28,214,0,0" Name="tbNoNewNotif" Text="Nothing to load..." VerticalAlignment="Top" Width="663" TextAlignment="Center" FontSize="14" Foreground="White" />
+            </Grid>
+             <Grid Name="gridReferralDetails" Margin="0,0,-41,0" Visibility="Visible" Opacity="1" HorizontalAlignment="Right" Width="0"  Background="#E5000000">
+                <Label Content="Referral Number: " Height="28" HorizontalAlignment="Left" Margin="27,28,0,0" Name="Label4" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="SemiBold" />
+                <GroupBox Header="Details" Margin="54,67,89,265" Name="GroupBox1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="344*" />
+                            <ColumnDefinition Width="256*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Name :" Height="28" HorizontalAlignment="Left" Margin="12,7,0,0" Name="Label6" VerticalAlignment="Top" Foreground="White" FontWeight="Medium" />
+                        <Label Content="Subject : " FontWeight="Medium" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="13,55,0,0" Name="Label8" VerticalAlignment="Top" />
+                        <Label Content="Section : " FontWeight="Medium" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="13,81,0,0" Name="Label9" VerticalAlignment="Top" />
+                        <GroupBox Header="Dates Absent/Late" Height="152" HorizontalAlignment="Left" Margin="12,5,0,0" VerticalAlignment="Top" Width="213" Grid.Column="1">
+                            <Grid>
+                                <TextBlock Height="45" HorizontalAlignment="Left" Margin="4,9,0,0" Name="tbRefDates" Text="TextBlock" VerticalAlignment="Top" Width="178" Foreground="White" TextWrapping="Wrap" />
+                            </Grid>
+                        </GroupBox>
+                        <TextBlock Height="41" HorizontalAlignment="Left" Margin="9,116,0,0" Name="tbRefConcerns" Text="TextBlock" VerticalAlignment="Top" Foreground="White" FontWeight="Thin" FontSize="11" Width="277" TextWrapping="Wrap" />
+                        <Label Content="LastName, FirstName, MiddleName" FontWeight="Normal" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="57,8,0,0" Name="lblRefName" VerticalAlignment="Top" FontSize="11" />
+                        <Label Content="SubjectCode - Description" FontSize="11" FontWeight="Normal" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="70,56,0,0" Name="lblRefSubject" VerticalAlignment="Top" />
+                        <Label Content="Section Code" FontSize="11" FontWeight="Normal" Foreground="White" HorizontalAlignment="Left" Margin="73,83,0,0" Name="lblRefSection" Height="28" VerticalAlignment="Top" />
+                        <Label Content="Student Number :" FontWeight="Medium" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="13,32,0,0" Name="Label3" VerticalAlignment="Top" />
+                        <Label Content="Student Number" FontSize="11" FontWeight="Normal" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="119,33,0,0" Name="lblRefStudentNo" VerticalAlignment="Top" />
+                    </Grid>
+                </GroupBox>
+                <StackPanel Height="219" Margin="55,289,0,0" Name="StackPanel6" VerticalAlignment="Top" HorizontalAlignment="Left" Width="559">
+                    <Expander Header="Guardian's Details" Height="Auto" Name="expNotifActionTaken" Foreground="White" ForceCursor="True">
+                        <Grid Height="170">
+                            <Label Content="Name :" FontWeight="Medium" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="10,10,0,0" Name="Label11" VerticalAlignment="Top" />
+                            <Label Content="LastName, FirstName, MiddleName" FontSize="11" FontWeight="Normal" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="56,10,0,0" Name="lblRefGuardianName" VerticalAlignment="Top" />
+                            <Label Content="Address :" FontWeight="Medium" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="11,42,0,0" Name="Label12" VerticalAlignment="Top" />
+                            <Label Content="Telephone Number:" FontWeight="Medium" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="12,97,0,0" Name="Label14" VerticalAlignment="Top" />
+                            <Label Content="Number" FontSize="11" FontWeight="Normal" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="130,98,0,0" Name="lblRefTelNum" VerticalAlignment="Top" />
+                            <TextBlock FontSize="11" FontWeight="Thin" Foreground="White" Height="46" HorizontalAlignment="Left" Margin="77,47,0,0" Name="tbRefAddress" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="464" />
+                            <Label Content="Mobile Number:" FontWeight="Medium" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="12,128,0,0" Name="Label13" VerticalAlignment="Top" />
+                            <Label Content="Number" FontSize="11" FontWeight="Normal" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="114,130,0,0" Name="lblRefMobNum" VerticalAlignment="Top" />
+                        </Grid>
+                    </Expander>
+                    <Expander Header="Enter Action Taken" Height="Auto" Name="expNotifFeedback" Foreground="White">
+                        <Grid Height="180">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="131*" />
+                                <RowDefinition Height="49*" />
+                            </Grid.RowDefinitions>
+                            <TextBox Name="tbFeedback" Height="130" Margin="-1,3,0,0" TextWrapping="Wrap" Controls:TextboxHelper.Watermark="Up to 200 Characters Only..." VerticalAlignment="Top" HorizontalAlignment="Left" Width="557" />
+                            <Button Content="Submit" Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="381,9,0,0" Name="btnRefSubmit" VerticalAlignment="Top" Width="75" />
+                            <Button Content="Clear" Grid.Row="1" Height="23" Margin="466,9,0,0" Name="btnRefClear" VerticalAlignment="Top" HorizontalAlignment="Left" Width="75" />
+                            <Label Content="Character Counter : " Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="14,10,0,0" Name="Label10" VerticalAlignment="Top" Foreground="White" />
+                            <Label Content="200" Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="129,11,0,0" Name="lblRefFeedCtr" VerticalAlignment="Top" Foreground="White" />
+                        </Grid>
+                    </Expander>
+                </StackPanel>
+                <Label Content="0" FontSize="14" FontWeight="SemiBold" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="144,28,0,0" Name="lblRefRefNum" VerticalAlignment="Top" />
+                <StackPanel Height="24" Margin="19,510,0,0" Name="StackPanel4" VerticalAlignment="Top" Orientation="Horizontal" HorizontalAlignment="Left" Width="Auto">
+                    <Label Content="Referred by: " FontSize="14" FontWeight="SemiBold" Foreground="White" Height="28" Name="Label2" />
+                    <Label Content="Last Name, First Name Middle Name" FontSize="14" FontWeight="SemiBold" Foreground="White" Height="28" Name="lblRefby" />
+                    <Label Content="Contact Number :" Height="28" Name="Label15" Foreground="White" />
+                    <Label Content="Number" Foreground="White" Height="28" Name="lblRefbyContact" />
+                </StackPanel>
+            </Grid>
+            <Grid Name="gridReports" Background="Gray" Margin="219,0,0,0" HorizontalAlignment="Left" Width="0">
+                <Button Width="55" Height="55" Style="{DynamicResource MetroCircleButtonStyle}" HorizontalAlignment="Left" Margin="25,16,0,0" VerticalAlignment="Top">
+                    <Image Height="50" Width="53" Source="/CATC_Terminal;component/Images/MB_0006_back.ico" />
+                    <Button.Triggers>
+                        <EventTrigger RoutedEvent="Button.Click">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation
+                                        Storyboard.TargetName="gridMenu"
+                                        Storyboard.TargetProperty="(Grid.Opacity)"
+                                        From="0.6" To="1" Duration="0:0:0.25"
+                                        />
+                                    <DoubleAnimation
+                                        Storyboard.TargetName="gridReports"
+                                        Storyboard.TargetProperty="(Grid.Opacity)"
+                                        From="1" To="0" Duration="0:0:0.10"
+                                        />
+                                    <DoubleAnimation
+                                        Storyboard.TargetName="gridReports"
+                                        Storyboard.TargetProperty="(Grid.Width)"
+                                            From="800" To="0" Duration="0:0:0.10"
+                                        />
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </Button.Triggers>
+                </Button>
+                <TextBlock Text="Report" TextDecorations="Underline" Height="32" Margin="97,34,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="133" Foreground="#61F8F8F8" FontSize="15" FontWeight="SemiBold" />
+                <GroupBox Header="Search" Height="64" Margin="41,79,0,0" Name="GroupBox8" VerticalAlignment="Top" HorizontalAlignment="Left" Width="402">
+                    <TextBox Controls:TextboxHelper.Watermark="Enter a Keyword..." Controls:TextboxHelper.ClearTextButton="true" Name="tbReportSearch"></TextBox>
+                </GroupBox>
+                <DataGrid Height="329" HorizontalAlignment="Left" Margin="39,181,0,0" Name="dgReportPicker" VerticalAlignment="Top" Width="647" SelectionMode="Single" IsReadOnly="true" CanUserAddRows="True" CanUserDeleteRows="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="True" />
+                <Expander Header="DATE FILTER" Foreground="White" Height="163" HorizontalAlignment="Left" Margin="42,150,0,0" Name="expDateFilter" VerticalAlignment="Top" Width="212" Background="{x:Null}">
+                    <Grid Background="#E79A9494" Name="Grid1">
+                        <GroupBox Header="From" Height="61" HorizontalAlignment="Left" Margin="3,4,0,0" Name="GroupBox9" VerticalAlignment="Top" Width="200">
+                            <DatePicker Name="dpFrom" />
+                        </GroupBox>
+                        <GroupBox Header="To" Height="61" HorizontalAlignment="Left" Margin="5,67,0,0" Name="GroupBox10" VerticalAlignment="Top" Width="200">
+                            <DatePicker Name="dpTo" />
+                        </GroupBox>
+                    </Grid>
+                </Expander>
+            </Grid>
+            <Grid Name="gridReportDetails" Margin="0,0,-41,0" Visibility="Visible" Opacity="1" HorizontalAlignment="Right" Width="700"  Background="#E5000000">
+                <Label Content="Referral Number: " Height="28" HorizontalAlignment="Left" Margin="27,28,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="SemiBold" />
+                <GroupBox Header="Details" Margin="54,67,89,265">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="344*" />
+                            <ColumnDefinition Width="256*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Name :" Height="28" HorizontalAlignment="Left" Margin="12,7,0,0"  VerticalAlignment="Top" Foreground="White" FontWeight="Medium" />
+                        <Label Content="Subject : " FontWeight="Medium" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="13,55,0,0" VerticalAlignment="Top" />
+                        <Label Content="Section : " FontWeight="Medium" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="13,81,0,0" VerticalAlignment="Top" />
+                        <GroupBox Header="Dates Absent/Late" Height="152" HorizontalAlignment="Left" Margin="12,5,0,0" VerticalAlignment="Top" Width="213" Grid.Column="1">
+                            <Grid>
+                                <TextBlock Height="45" HorizontalAlignment="Left" Margin="4,9,0,0" Name="tbRepDates" Text="TextBlock" VerticalAlignment="Top" Width="178" Foreground="White" TextWrapping="Wrap" />
+                            </Grid>
+                        </GroupBox>
+                        <TextBlock Height="41" HorizontalAlignment="Left" Margin="32,113,0,0" Name="tbRepConcerns" Text="TextBlock" VerticalAlignment="Top" Foreground="White" FontWeight="Thin" FontSize="11" Width="252" TextWrapping="Wrap" />
+                        <Label Content="LastName, FirstName, MiddleName" FontWeight="Normal" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="57,8,0,0" Name="lblRepName" VerticalAlignment="Top" FontSize="11" />
+                        <Label Content="SubjectCode - Description" FontSize="11" FontWeight="Normal" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="70,56,0,0" Name="lblRepSubject" VerticalAlignment="Top" />
+                        <Label Content="Section Code" FontSize="11" FontWeight="Normal" Foreground="White" HorizontalAlignment="Left" Margin="73,83,0,0" Name="lblRepSection" Height="28" VerticalAlignment="Top" />
+                        <Label Content="Student Number :" FontWeight="Medium" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="13,32,0,0" VerticalAlignment="Top" />
+                        <Label Content="Student Number" FontSize="11" FontWeight="Normal" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="119,33,0,0" Name="lblRepStudentNo" VerticalAlignment="Top" />
+                    </Grid>
+                </GroupBox>
+                <StackPanel Height="219" Margin="55,289,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="559">
+                    <Expander Header="Action Taken" Height="Auto" Name="expReportActionTaken" Foreground="White" ForceCursor="True">
+                        <Grid Height="170">
+                            <TextBlock Height="147" HorizontalAlignment="Left" Margin="14,12,0,0" Name="tbRepActionTaken" Text="TextBlock" VerticalAlignment="Top" Width="530" />
+                        </Grid>
+                    </Expander>
+                    <Expander Header="Feedback" Height="Auto" Name="expReportFeedback" Foreground="White">
+                        <Grid Height="170">
+                            <TextBlock Height="147" HorizontalAlignment="Left" Margin="10,10,0,0" Name="tbRepFeedback" Text="TextBlock" VerticalAlignment="Top" Width="530" />
+                        </Grid>
+                    </Expander>
+                </StackPanel>
+                <Label Content="0" FontSize="14" FontWeight="SemiBold" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="144,28,0,0" Name="lblRepRefNum" VerticalAlignment="Top" />
+                <StackPanel Height="24" Margin="0,514,66,0"  VerticalAlignment="Top" Orientation="Horizontal" HorizontalAlignment="Right" Width="Auto">
+                    <Label Content="Referred by: " FontSize="14" FontWeight="SemiBold" Foreground="White" Height="28" />
+                    <Label Content="Last Name, First Name Middle Name" FontSize="14" FontWeight="SemiBold" Foreground="White" Height="28" Name="lblRepby" />
+                </StackPanel>
+                <Button Content="Export" Height="23" HorizontalAlignment="Left" Margin="455,29,0,0" Name="btnExport" VerticalAlignment="Top" Width="75" />
+                <Button Content="Print" Height="23" HorizontalAlignment="Left" Margin="536,30,0,0" Name="btnPrint" VerticalAlignment="Top" Width="75" />
+            </Grid>
+            <Grid Name="Clickable" Margin="208,0,0,0" Background="#00000000" Width="0" HorizontalAlignment="Left"></Grid>
+            <StackPanel Height="0" HorizontalAlignment="Left" Margin="712,0,0,0" Name="settings" VerticalAlignment="Top" Width="200" Background="#CC434345">
+                <Button Content="Change Password" Height="30" Name="btnChangePassword" Width="201" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" />
+                <Button Background="{x:Null}" BorderBrush="{x:Null}" Content="About" Foreground="White" Height="30" Name="btnAbout" Width="201" />
+                <Button Background="{x:Null}" BorderBrush="{x:Null}" Content="Help" Foreground="White" Height="30" Name="btnHelp" Width="201" />
+            </StackPanel>
+        </Grid>
+    </Controls:MetroContentControl>
+</Controls:MetroWindow>
